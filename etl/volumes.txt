@@ -1,0 +1,12 @@
+# Sample volume list for dcollect_volumes.py
+# Lines starting with # are treated as comments and ignored.
+# Enter one VOLSER (1-6 characters) per line.
+
+# System volumes
+SYS001
+SYS002
+
+# User data volumes
+USR001
+USR002
+USR003

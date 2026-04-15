@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.whl
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# Environment / secrets — never commit credentials
+.env.local
+.secrets
+zosmf_password.txt
+
+# IDE / editor
+.vscode/
+.idea/
+*.code-workspace
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Logs & temp output
+*.log
+*.csv
+!etl/volumes.txt       # keep the sample input file
+
+# pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
